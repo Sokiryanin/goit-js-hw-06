@@ -10,9 +10,12 @@ function onFormSubmit(event) {
 
   if (email.value === "" || password.value === "") {
     alert("Заповніть всі поля");
-    return;
   }
-  console.log(`email: ${email.value}, password:${password.value}`);
+  const object = {
+    Email: email.value,
+    Password: password.value,
+  };
+  console.log(object);
   event.currentTarget.reset();
 }
 
