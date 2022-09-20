@@ -1,7 +1,7 @@
 const refs = {
   changeColorBtn: document.querySelector(".change-color"),
   color: document.querySelector(".color"),
-  body: document.querySelector(".body"),
+  body: document.querySelector("body"),
 };
 
 refs.changeColorBtn.addEventListener("click", changeColorClick);
